@@ -1,0 +1,20 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:example:buyer-832ffe7a",
+  "verificationMethod": [
+    {
+      "id": "did:example:buyer-832ffe7a#keys-1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:example:buyer-832ffe7a",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "q81_vaFphlHszpnBLuFqh2yK88KoCxNv7Mhb2DraKQY",
+        "y": "1yWPqOhTjTZi92WVaX0TjC6tj_yH_Z3scv2swqaXSNY"
+      }
+    }
+  ],
+  "authentication": [
+    "did:example:buyer-832ffe7a#keys-1"
+  ]
+}
